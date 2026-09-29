@@ -1,0 +1,27 @@
+name: 매일 주식 뉴스레터
+
+on:
+  schedule:
+    - cron: "30 22 * * 0-5"   # 한국시간 월~토 오전 7시 30분 (GitHub 사정으로 조금 늦을 수 있어요)
+  workflow_dispatch:           # '지금 바로 실행' 버튼
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - run: python make_newsletter.py
+      - name: 완성된 페이지 저장
+        run: |
+          git config user.name "newsletter-bot"
+          git config user.email "newsletter-bot@users.noreply.github.com"
+          git add docs
+          git commit -m "뉴스레터 $(TZ=Asia/Seoul date +%F)" || echo "바뀐 게 없어요"
+          git push
