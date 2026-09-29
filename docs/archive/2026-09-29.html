@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>오늘의 주식 날씨 09/29</title><style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#1d2330;--sub:#5b6475;--line:#e4e7ee;
+--up:#d93a3a;--down:#2f6fe0;--accent:#6b4eff;--warn-bg:#fff4e5;--warn:#8a5300}
+@media (prefers-color-scheme:dark){:root{--bg:#12151c;--card:#1b1f29;--ink:#e8ebf2;
+--sub:#9aa3b5;--line:#2a3040;--up:#ff6b6b;--down:#6aa0ff;--accent:#a18cff;
+--warn-bg:#2d2415;--warn:#ffcf88}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,
+"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 60px}
+h1{font-size:26px;margin:0 0 4px}
+h2{font-size:20px;margin:36px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+h3{font-size:17px;margin:22px 0 10px}
+.meta{color:var(--sub);font-size:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:10px 0}
+.summary{border-left:5px solid var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.idx .n{font-weight:700}.idx .v{font-size:22px;font-weight:700}
+.up{color:var(--up)}.down{color:var(--down)}
+.badge{display:inline-block;font-size:13px;padding:1px 9px;border-radius:99px;
+border:1px solid currentColor;margin-left:6px;vertical-align:2px}
+.small{font-size:14px;color:var(--sub)}
+.stock .top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline}
+.stock .name{font-weight:700;font-size:17px}
+.stock ul{margin:8px 0 6px;padding-left:20px}
+.stock a{color:var(--accent);font-size:14px}
+.warn{background:var(--warn-bg);color:var(--warn);border-radius:12px;padding:12px 14px;font-size:14px}
+.empty{color:var(--sub)}
+.movers{display:flex;flex-wrap:wrap;gap:6px}
+.chip{background:var(--card);border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:14px}
+footer{margin-top:40px;font-size:13px;color:var(--sub)}
+footer a{color:var(--sub)}
+</style></head>
+<body><div class="wrap">
+<h1>오늘의 주식 날씨</h1>
+<div class="meta">만든 시각 2026-09-29 15:26 (한국시간) · 한국장 09/29 마감 · 미국장 09/28 마감 기준</div>
+
+<div class="card summary"><p><b>오늘의 날씨: 한국은 <b>흐림</b>, 미국은 <b>흐림</b>.</b></p><p>1달러 = <b>1,358원</b> (어제보다 +3원, 달러가 비싸졌어요). 달러가 비싸지면 해외직구·여행이 조금 비싸지고, 외국인이 한국 주식을 팔고 나갈 때 자주 이런 모습이 나와요.</p><p>미국 공포지수(VIX) <b>16.1</b> → 20 아래면 차분, 30 넘으면 겁먹은 상태예요. 지금은 차분해요.</p></div>
+<h2>한국 시장</h2>
+<div class="grid"><div class="card idx"><div class="n">코스피<span class="badge down">흐림</span></div><div class="v down">-0.62%</div><div class="small">한국 대표 회사 800여 개를 한 바구니에 담은 가격표예요. 100만 원어치 갖고 있었다면 6,200원 줄었어요.</div></div><div class="card idx"><div class="n">코스닥<span class="badge down">흐림</span></div><div class="v down">-0.04%</div><div class="small">한국의 작지만 빨리 크는 회사들(바이오·2차전지·게임 등) 바구니예요. 100만 원어치 갖고 있었다면 400원 줄었어요.</div></div></div>
+<div class="card">우리가 지켜보는 72개 종목 중 <b>13개 오르고 59개 내렸어요.</b> 거의 다 같이 내렸어요 → 특정 회사 문제라기보다 시장 전체 분위기 탓일 가능성이 커요.<p class="small">오늘 제일 많이 오른 종목</p><div class="movers"><span class="chip">이오테크닉스 <span class="up">+5.76%</span></span><span class="chip">원익IPS <span class="up">+4.95%</span></span><span class="chip">농심 <span class="up">+3.02%</span></span></div></div>
+<h3>사람들이 '망했다'고 난리인 종목</h3>
+<div class="card stock"><div class="top"><span class="name">SK이노베이션 <span class="small">096770.KS</span></span><span class="down"><b>145,600원</b> (-7.96%)</span></div><ul><li>하루 만에 <b>-7.96%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 79,600원 줄었어요.</li><li>거래량은 평소의 0.6배예요.</li><li>오늘은 시장 전체가 빠진 날이라, 이 회사만의 문제가 아닐 수도 있어요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=096770" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">포스코퓨처엠 <span class="small">003670.KS</span></span><span class="down"><b>174,500원</b> (-5.78%)</span></div><ul><li>하루 만에 <b>-5.78%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 57,800원 줄었어요.</li><li>거래량은 평소의 0.8배예요.</li><li>오늘은 시장 전체가 빠진 날이라, 이 회사만의 문제가 아닐 수도 있어요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=003670" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">LG화학 <span class="small">051910.KS</span></span><span class="down"><b>248,500원</b> (-5.33%)</span></div><ul><li>하루 만에 <b>-5.33%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 53,300원 줄었어요.</li><li>거래량은 평소의 1.0배예요.</li><li>오늘은 시장 전체가 빠진 날이라, 이 회사만의 문제가 아닐 수도 있어요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=051910" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">에코프로비엠 <span class="small">247540.KQ</span></span><span class="down"><b>105,400원</b> (-5.30%)</span></div><ul><li>하루 만에 <b>-5.30%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 53,000원 줄었어요.</li><li>거래량은 평소의 0.9배예요.</li><li>오늘은 시장 전체가 빠진 날이라, 이 회사만의 문제가 아닐 수도 있어요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=247540" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">LG생활건강 <span class="small">051900.KS</span></span><span class="down"><b>278,500원</b> (-4.46%)</span></div><ul><li>하루 만에 <b>-4.46%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 44,600원 줄었어요.</li><li>거래량은 평소의 1.1배예요.</li><li>오늘은 시장 전체가 빠진 날이라, 이 회사만의 문제가 아닐 수도 있어요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=051900" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<h3>저점매수 '후보' (공부용)</h3>
+<p class="small">조건: 1년 최고가보다 20% 이상 싸짐 + 팔자 체력 게이지 40 이하 + 오늘 폭락 중인 종목은 제외</p>
+<div class="card stock"><div class="top"><span class="name">현대모비스 <span class="small">012330.KS</span></span><span class="down"><b>365,000원</b> (-2.14%)</span></div><ul><li>1년 중 제일 비쌀 때 765,732원 → 지금 365,000원 (<b>-52%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>26</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -3.69%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=012330" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">휴젤 <span class="small">145020.KQ</span></span><span class="down"><b>182,400원</b> (-1.99%)</span></div><ul><li>1년 중 제일 비쌀 때 302,000원 → 지금 182,400원 (<b>-40%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>20</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -14.77%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=145020" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">클래시스 <span class="small">214150.KQ</span></span><span class="down"><b>30,550원</b> (-0.65%)</span></div><ul><li>1년 중 제일 비쌀 때 75,600원 → 지금 30,550원 (<b>-60%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>34</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -2.40%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=214150" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">현대차 <span class="small">005380.KS</span></span><span class="down"><b>347,000원</b> (-2.12%)</span></div><ul><li>1년 중 제일 비쌀 때 745,289원 → 지금 347,000원 (<b>-53%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>31</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -4.93%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=005380" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">하이브 <span class="small">352820.KS</span></span><span class="down"><b>158,000원</b> (-2.41%)</span></div><ul><li>1년 중 제일 비쌀 때 403,928원 → 지금 158,000원 (<b>-61%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>35</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -4.76%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.naver.com/item/news.naver?code=352820" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<h2>미국 시장</h2>
+<div class="grid"><div class="card idx"><div class="n">S&amp;P 500<span class="badge down">흐림</span></div><div class="v down">-0.77%</div><div class="small">미국 대표 회사 500개 바구니예요. 미국 시장의 &#x27;평균 성적표&#x27;라고 보면 돼요. 100만 원어치 갖고 있었다면 7,700원 줄었어요.</div></div><div class="card idx"><div class="n">나스닥<span class="badge down">흐림</span></div><div class="v down">-0.92%</div><div class="small">애플·엔비디아 같은 기술 회사가 많이 들어 있는 바구니예요. 100만 원어치 갖고 있었다면 9,200원 줄었어요.</div></div><div class="card idx"><div class="n">다우<span class="badge down">흐림</span></div><div class="v down">-0.67%</div><div class="small">미국의 오래된 대기업 30개만 담은 바구니예요. 100만 원어치 갖고 있었다면 6,700원 줄었어요.</div></div></div>
+<div class="card">우리가 지켜보는 60개 종목 중 <b>22개 오르고 38개 내렸어요.</b> 오른 종목과 내린 종목이 섞였어요 → 회사마다 사정이 달랐던 날이에요.<p class="small">오늘 제일 많이 오른 종목</p><div class="movers"><span class="chip">e.l.f. 뷰티 <span class="up">+2.30%</span></span><span class="chip">P&amp;G <span class="up">+1.91%</span></span><span class="chip">나이키 <span class="up">+1.79%</span></span></div></div>
+<h3>사람들이 '망했다'고 난리인 종목</h3>
+<div class="card stock"><div class="top"><span class="name">ARM <span class="small">ARM</span></span><span class="down"><b>$283.33</b> (-8.70%)</span></div><ul><li>하루 만에 <b>-8.70%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 87,000원 줄었어요.</li><li>거래량은 평소의 1.7배예요.</li><li>시장은 그럭저럭인데 혼자 크게 빠졌어요 → 회사에 무슨 일이 있었을 가능성이 커요. 뉴스를 꼭 확인하세요.</li></ul><a href="https://finance.yahoo.com/quote/ARM/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">퀄컴 <span class="small">QCOM</span></span><span class="down"><b>$187.48</b> (-7.17%)</span></div><ul><li>하루 만에 <b>-7.17%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 71,700원 줄었어요.</li><li>거래량은 평소의 1.1배예요.</li><li>시장은 그럭저럭인데 혼자 크게 빠졌어요 → 회사에 무슨 일이 있었을 가능성이 커요. 뉴스를 꼭 확인하세요.</li></ul><a href="https://finance.yahoo.com/quote/QCOM/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">보잉 <span class="small">BA</span></span><span class="down"><b>$184.39</b> (-6.91%)</span></div><ul><li>하루 만에 <b>-6.91%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 69,100원 줄었어요.</li><li>평소보다 <b>2.8배</b> 많이 사고팔았어요 → 사람들이 놀라서 우르르 움직였다는 뜻이에요.</li><li>시장은 그럭저럭인데 혼자 크게 빠졌어요 → 회사에 무슨 일이 있었을 가능성이 커요. 뉴스를 꼭 확인하세요.</li></ul><a href="https://finance.yahoo.com/quote/BA/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">인텔 <span class="small">INTC</span></span><span class="down"><b>$116.03</b> (-5.67%)</span></div><ul><li>하루 만에 <b>-5.67%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 56,700원 줄었어요.</li><li>거래량은 평소의 1.1배예요.</li><li>시장은 그럭저럭인데 혼자 크게 빠졌어요 → 회사에 무슨 일이 있었을 가능성이 커요. 뉴스를 꼭 확인하세요.</li></ul><a href="https://finance.yahoo.com/quote/INTC/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">메타 <span class="small">META</span></span><span class="down"><b>$715.62</b> (-4.79%)</span></div><ul><li>하루 만에 <b>-4.79%</b> 떨어졌어요. 100만 원어치 갖고 있었다면 47,900원 줄었어요.</li><li>거래량은 평소의 1.2배예요.</li><li>시장은 그럭저럭인데 혼자 크게 빠졌어요 → 회사에 무슨 일이 있었을 가능성이 커요. 뉴스를 꼭 확인하세요.</li></ul><a href="https://finance.yahoo.com/quote/META/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<h3>저점매수 '후보' (공부용)</h3>
+<p class="small">조건: 1년 최고가보다 20% 이상 싸짐 + 팔자 체력 게이지 40 이하 + 오늘 폭락 중인 종목은 제외</p>
+<div class="card stock"><div class="top"><span class="name">맥도날드 <span class="small">MCD</span></span><span class="down"><b>$233.60</b> (-1.23%)</span></div><ul><li>1년 중 제일 비쌀 때 $334.50 → 지금 $233.60 (<b>-30%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>23</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -5.76%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.yahoo.com/quote/MCD/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">넷플릭스 <span class="small">NFLX</span></span><span class="down"><b>$69.23</b> (-2.70%)</span></div><ul><li>1년 중 제일 비쌀 때 $124.14 → 지금 $69.23 (<b>-44%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>33</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -5.63%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.yahoo.com/quote/NFLX/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">어도비 <span class="small">ADBE</span></span><span class="down"><b>$231.01</b> (-1.89%)</span></div><ul><li>1년 중 제일 비쌀 때 $359.91 → 지금 $231.01 (<b>-36%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>35</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -7.42%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.yahoo.com/quote/ADBE/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">홈디포 <span class="small">HD</span></span><span class="down"><b>$289.89</b> (-1.13%)</span></div><ul><li>1년 중 제일 비쌀 때 $395.60 → 지금 $289.89 (<b>-27%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>30</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -2.46%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.yahoo.com/quote/HD/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="card stock"><div class="top"><span class="name">포드 <span class="small">F</span></span><span class="down"><b>$12.38</b> (-2.60%)</span></div><ul><li>1년 중 제일 비쌀 때 $17.25 → 지금 $12.38 (<b>-28%</b> 싸졌어요).</li><li>'팔자 체력 게이지(RSI)' <b>32</b>/100 → 30 아래면 너무 많이 팔려서 지친 상태, 40 아래면 지쳐가는 중이에요.</li><li>최근 5일은 -6.00%로 아직 내려가는 중이에요. 서두르지 말고 지켜보세요.</li></ul><a href="https://finance.yahoo.com/quote/F/news" target="_blank" rel="noopener">왜 그런지 뉴스 보기 →</a></div>
+<div class="warn" style="margin-top:28px">이 페이지는 숫자를 자동으로 정리한 <b>공부용 자료</b>예요.
+'저점매수 후보'는 싸졌다는 뜻이지, 오른다는 보장이 아니에요. 투자 결정은 뉴스와 회사 사정을 직접 확인하고 스스로 판단하세요.</div>
+<footer><p><a href="../index.html">← 오늘 것 보기</a></p><p>데이터: Yahoo Finance (무료, 약간 늦거나 틀릴 수 있어요)</p></footer>
+</div></body></html>
